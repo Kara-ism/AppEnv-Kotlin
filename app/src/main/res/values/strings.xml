@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ Copyright © 2017 Sollyu <https://www.sollyu.com/>
   ~
@@ -8,129 +9,142 @@
 
 <resources>
     <string name="app_name">AppEnv</string>
-    <string name="xposed_desc">i\'m english is bad. so sorry.</string>
-
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-
-    <string name="action_settings">Settings</string>
-
-    <string name="tip">Tip</string>
-    <string name="splash_xposed_not_work_title">Finish</string>
-    <string name="splash_xposed_not_work_content">The Xposed is not work.\nPlease check Xposed status.</string>
-    <string name="refresh">Refresh</string>
-    <string name="settings">Settings</string>
-    <string name="cloud">Cloud</string>
-    <string name="other">Other</string>
-    <string name="donate">Donate</string>
-    <string name="score">Score</string>
-    <string name="about">About</string>
-    <string name="search">Search</string>
-    <string name="detail_finish_snackbar">Save Success</string>
-    <string name="finish">Finish</string>
+    <string name="online_url_soft">https://gitee.com/sollyu/AppEnv-Kotlin/raw/develop/online/app.env.soft.json</string>
+    <string name="online_url_phone">https://gitee.com/sollyu/AppEnv-Kotlin/raw/develop/online/app.env.phone.json</string>
     <string name="error">Error</string>
-    <string name="online_url_soft">https://rawgit.com/kingsollyu/AppEnv-Kotlin/develop/online/app.env.soft.json</string>
-    <string name="online_url_phone">https://rawgit.com/kingsollyu/AppEnv-Kotlin/develop/online/app.env.phone.json</string>
+    <string name="finish">Finish</string>
+    <string name="detail_finish_snackbar">Save successfully</string>
+    <string name="search">Search</string>
+    <string name="about">About</string>
+    <string name="score">Score</string>
+    <string name="donate">Donate</string>
+    <string name="other">Other</string>
+    <string name="cloud">Cloud</string>
+    <string name="settings">Configure</string>
+    <string name="refresh">Refresh</string>
+    <string name="splash_xposed_not_work_content">It looks like that your device is inaccurate with Xposed, and there's nothing can be done without it.\nIf you encounter this dialogue after an update, \nplease 「check」 AppEnv again in the module category of Xposed Installer then 「reboot」 your device.</string>
+    <string name="splash_xposed_not_work_title">Quit</string>
+    <string name="tip">Tip</string>
+    <string name="action_settings">Configure</string>
+    <string name="navigation_drawer_close">Navigation drawer off</string>
+    <string name="navigation_drawer_open">Navigation drawer on</string>
+    <string name="xposed_desc">This can fake any models of device, whose software shown.</string>
     <string name="settings_no_update">The current version is the latest version</string>
-    <string name="settings_has_update">Last Version Name: %1$s\nLast Version Message: \n%2$s</string>
-    <string name="settings_has_update_positive">OPEN URL</string>
-    <string name="settings_update_progress">Check update…</string>
+    <string name="settings_has_update">Latest Version：%1$s\nContents of Updates：\n%2$s</string>
+    <string name="settings_has_update_positive">Download</string>
+    <string name="settings_update_progress">Checking for updates……</string>
     <string name="settings_blog">Blog</string>
     <string name="settings_author">Author</string>
     <string name="settings_email">E-Mail</string>
     <string name="settings_github">Github</string>
-    <string name="settings_update_soft">Update Soft Version</string>
-    <string name="settings_update_phone">Update Phone List</string>
-    <string name="settings_show_system_app">Show System App</string>
-    <string name="random_all">Random All</string>
-    <string name="run_app">Run App</string>
-    <string name="wipe_data">Wipe Data</string>
-    <string name="force_stop_app">Stop App</string>
-    <string name="save_config">Save Config</string>
+    <string name="settings_update_soft">Renew version of application</string>
+    <string name="settings_update_phone">Renew version of lists of models</string>
+    <string name="settings_show_system_app">Show system application</string>
+    <string name="random_all">Randomize all variables</string>
+    <string name="run_app">Execute application</string>
+    <string name="wipe_data">Wipe user data</string>
+    <string name="force_stop_app">Force to stop application</string>
+    <string name="save_config">Save this utilization</string>
     <string name="random">Random</string>
-    <string name="delete_config">Delete Config</string>
-    <string name="remote_random">Remote Random</string>
-    <string name="solution">Solution</string>
-    <string name="save_solution">Save Solution</string>
-    <string name="load_solution">Load Solution</string>
-    <string name="delete_solution">Delete Solution</string>
-    <string name="detail_solution_save_success">Solution $1%s Save Success</string>
-    <string name="detail_solution_save_title">Save Solution</string>
-    <string name="detail_solution_save_hint">Input solution name</string>
+    <string name="delete_config">Delete this utilization</string>
+    <string name="remote_random">Randomize all variables through Cloud</string>
+    <string name="solution">Formula</string>
+    <string name="save_solution">Save as formula</string>
+    <string name="load_solution">Load formula</string>
+    <string name="delete_solution">Delete formula</string>
+    <string name="detail_solution_save_success">Save successfully with formula %1$s</string>
+    <string name="detail_solution_save_title">Save as formula</string>
+    <string name="detail_solution_save_hint">Please enter the name of formula</string>
     <string name="empty" />
-    <string name="detail_solution_load_title">Load Solution</string>
-    <string name="detail_solution_delete_title">Delete Solution</string>
-    <string name="detail_solution_delete_success">Delete Solution Success: %1$s</string>
-    <string name="settings_update_phone_success">Phone database update success.</string>
-    <string name="detail_build_manufacturer">Build Manufacturer</string>
-    <string name="detail_build_model">Build Model</string>
-    <string name="detail_build_serial">Build Serial</string>
-    <string name="detail_build_version_name">Build Version Name</string>
+    <string name="detail_solution_load_title">Load formula</string>
+    <string name="detail_solution_delete_title">Delete formula</string>
+    <string name="detail_solution_delete_success">Delete formula successfully: %1$s</string>
+    <string name="settings_update_phone_success">Renew version of lists of models successfully</string>
+    <string name="detail_build_manufacturer">Manufacturer</string>
+    <string name="detail_build_serial">Build Serial Number</string>
+    <string name="detail_build_version_name">Build Version</string>
     <string name="detail_sim_phone_number">Phone Number</string>
-    <string name="detail_sim_device_id">Imei</string>
-    <string name="detail_sim_subscriber_id">Sim Subscriber Id</string>
-    <string name="detail_sim_operator">Sim Operator</string>
-    <string name="detail_sim_operator_name">Sim Operator Name</string>
-    <string name="detail_sim_serial_number">Sim Serial Number</string>
-    <string name="detail_sim__status">Sim Status</string>
-    <string name="detail_wifi_name">Wifi Name</string>
-    <string name="detail_wifi_bssid">Wifi BSSID</string>
-    <string name="detail_wifi_mac_address">Wifi Mac Address</string>
-    <string name="settings_issues">Issues</string>
-    <string name="detail_run_app">Pls form desktop run app</string>
-    <string name="detail_run_app_back">HOME</string>
-    <string name="title_activity_about">About</string>
-    <string name="about_text">
-        <Data>
-            <![CDATA[
+    <string name="detail_sim_device_id">IMEI</string>
+    <string name="detail_sim_subscriber_id">IMSI</string>
+    <string name="detail_sim_operator">Mobile Network Code</string>
+    <string name="detail_sim_operator_name">Carrier Name</string>
+    <string name="detail_sim_serial_number">SIM Serial Number</string>
+    <string name="detail_sim__status">SIM Status</string>
+    <string name="detail_build_model">Model</string>
+    <string name="detail_wifi_name">Wi-Fi network name</string>
+    <string name="detail_wifi_bssid">Wi-Fi BSSID</string>
+    <string name="detail_wifi_mac_address">Wi-Fi MAC address</string>
+    <string name="settings_issues">Questions?Advices？</string>
+    <string name="detail_run_app">Please run application from Launcher</string>
+    <string name="detail_run_app_back">Launcher</string>
+    <string name="about_text">"\n        <Data>\n            <![CDATA[
                     "<h2>AppEnv</h2>"
                     "Author: king.sollyu<br>"
-                    "Contact: QQ: 191067617 (C.S.T)<br>"
-                    "Description: Dynamically modify the software information<br>"
-                    "Depend: <a href="http://repo.xposed.info/module/de.robv.android.xposed.installer">XPOSED</a> OR <a href="http://en.miui.com/thread-78894-1-1.html">WSM tools</a><br>"
-                    "Update: Historic version <a href="https://github.com/kingsollyu/AppEnv-Kotlin/releases">CLICK HERE</a><br><br>"
+                    "Contact: QQ: 191067617<br>"
+                    "Description: Modify any information of software dynamically<br>"
+                    "Depend on: <a href="http://repo.xposed.info/module/de.robv.android.xposed.installer">Xposed</a> or <a href="http://en.miui.com/thread-78894-1-1.html">WSM Tools</a> or <a href="https://github.com/android-hacker/VAExposed">VAExposed</a><br>"
+                    "Updates: History version <a href="https://github.com/kingsollyu/AppEnv-Kotlin/releases">CLICK HERE</a><br>"
+                    "Video: Software guide <a href="http://www.bilibili.com/video/av6928436/">CLICK HERE</a><br>"
+                    "WeChat: Official Accounts: AppEnv<br>"
+                    "P.S.: I accept requests to develop software similar this one(Don't bother if you aren't serious)<br><br>"
 
                     "Copyright © <a href="http://www.sollyu.com">Sollyu</a> 2015-2017 Version %1$s<br><br>"
 
-                    "<h2>Files</h2>"
-                    "App Setting：%2$s<br>"
-                    "Phone Database：%3$s<br>"
-                    "Xposed Setting：%4$s<br>"
+                    "<h2>Maintenance</h2>"
+                    "Please connect author if you're a customized customer<br>"
+                    "Please visit QQ Group if you're a non-customized user: <a href="http://shang.qq.com/wpa/qunwpa?idkey=f7a9290f4c57e49f8f72034ceebf7ef2e09f06fc8410a241d808a585fa664ca3">73426544</a><br>"
+                    "Due to less of time of mine<br>"
+                    "For non-customized users, please discuss on <a href="http://shang.qq.com/wpa/qunwpa?idkey=f7a9290f4c57e49f8f72034ceebf7ef2e09f06fc8410a241d808a585fa664ca3">QQ Group</a> or <a href="https://github.com/kingsollyu/AppEnv-Kotlin/issues">Github</a>; It'll be <u>REJECTED</u> to add author as a friend.<br><br>"
+
+                    "<h2>Special Notes</h2>"
+                    "DON'T use this to do anything illegal, including click farming. If you break any laws while using, all consequences are at your own risk and irrelevant to the author.<br>"
                     "<br>"
 
-                    "<h2>This update</h2>"
-                    "+ i'm english is so bad.<br>"
-                    "+ i'm sorry, there no english<br>"
+                    "<h2>Description of files</h2>"
+                    "Configuration file of application：%2$s<br>"
+                    "Database of lists of models：%3$s<br>"
+                    "Data of applied utilization：%4$s<br>"
+                    "<br>"
+
+                    "<h2>Changelog</h2>"
+                    "+ Add new models of OPPO<br>"
+                    "+ Randomize all variables through Cloud(Minus 2 times of avalible points)<br>"
+                    "+ Add some popular models<br>"
+                    "~ Edit high frame rate models of 王者荣耀 as OPPO r11 plus<br>"
+                    "~ Some bugs fixed<br>"
+                    "~ By The Way：Now we support VAExposed！！<br>"
+                    "<br>"
 
                     "<br>"
                     "<br>"
-            ]]>
-        </Data>
-    </string>
-    <string name="main_nav_header_desc">i\'m english so bad. :(</string>
-    <string name="settings_show_desktop_icon">Show Desktop Icon</string>
-    <string name="settings_show_desktop_icon_tip">You can open app in Xposed model.</string>
-    <string name="settings_thinks">Thinks</string>
-    <string name="main_xposed_fail">Xposed status error.</string>
-    <string name="settings_use_root">Use Root</string>
-    <string name="settings_use_root_content">no english. :(</string>
-    <string name="detail_clear_success">Wipe data success</string>
-    <string name="settings_use_root_available_fail">Request Root Fail</string>
-    <string name="detail_sim_country_iso">Sim Country Iso</string>
+                    "<br>"
+                    "<br>"
+            ]]>\n        </Data>\n    "</string>
+    <string name="title_activity_about">About</string>
+    <string name="main_nav_header_desc">It's welcome to contact author if you need customized software</string>
+    <string name="settings_show_desktop_icon">Show icon of application from Launcher</string>
+    <string name="settings_show_desktop_icon_tip">Icon of application will disappear from Launcher while turning this off, but you can open this application from the module category of Xposed Installer.</string>
+    <string name="settings_thinks">Special Thanks</string>
+    <string name="main_xposed_fail">\u26a0\ufe0fFaulty Status with Xposed\u26a0\ufe0f\nAny settings will be invalid.</string>
+    <string name="settings_use_root">Use Root access</string>
+    <string name="settings_use_root_content" >It'll be faster to force stop application and wipe user data by using Root access directly. However, because of different ways to gain Root access of devices, your device may get Root incompletely. You'll have problems with this feature on if rooting flawed.\n\nAre you sure to use Root access？</string>
+    <string name="detail_clear_success">Wipe user data successfully</string>
+    <string name="settings_use_root_available_fail">Failed to request Root access</string>
+    <string name="detail_sim_country_iso">ISO 3166 Country Code</string>
     <string name="detail_language">Language</string>
     <string name="detail_display_dip">DPI</string>
-    <string name="settings_use_app_data_config">Use app data Config</string>
-    <string name="settings_use_app_data_config_content">Use app data Config?</string>
-    <string name="splash_permission_write_storage_denied_content">AppEnv need write external storeage permission. :(</string>
-    <string name="scan_qr">Scan QR</string>
-    <string name="upload_config">Upload Config</string>
+    <string name="settings_use_app_data_config">Use internal space as storage</string>
+    <string name="settings_use_app_data_config_content">【Characteristics of Using Internal Space as Storage】\nSupport to intercept applications without authority of SD Memory Card\nIncompatible with versions of system above 7.0\n\n【Characteristics of Using External Space as Storage】\nnUnsupport to intercept applications without authority of SD Memory Card\nEdit configuration files directly at ease\nCompatible with all versions of system\n\nSure to use internal space as storage？</string>
+    <string name="splash_permission_write_storage_denied_content">In order to use normally, AppEnv needs reading permission of SD Memory Card.\n\nＱ：Why it needs that permission？\nＡ：For the security of operating system, a permission called 【MODE_WORLD_READABLE】 has been resigned in Android above 7.0. This permission was used to make other processes visit any files that it set, which is also an entrance of configuration to intercept application that AppEnv offered. Because the permission is removed from system, plus I'm a newbie, I grudgingly put configuration files on SD Memory Card so that I let other application to read.\n\nＱ：What will happen if I don't give authority？\nＡ：You can set on 「Use internal space as storage」 in configuration if your system is former than 7.0, then you can use this application normally. On the contrary, I think you couldn't use this normally if version of your operating stsyem is above 7.0 because configuration files can't be saved into internal space.\n\nＱ：But I REALLY hate this permission\nＡ：I answer as author here, this application WON'T add any types of advertisement FOREVER, also, it WON'T generate any messy files in your storage. But there's an exception, statistics we used called 【友盟】, it seems like that it will generate a folder called 【umeng】 of your storage.\n\nＱ：……\nＡ：…………\n</string>
+    <string name="scan_qr">Scan QR Code</string>
+    <string name="upload_config">Upload utilization</string>
     <string name="settings_log">Logs</string>
     <string name="log_delete">Delete</string>
     <string name="log_reload">Reload</string>
     <string name="register_title">Register</string>
-    <string name="register_processing">Registering…</string>
-    <string name="settings_use_data_local_tmp">Use /data/local/tmp</string>
-    <string name="settings_use_data_local_tmp_title">TIP</string>
-    <string name="settings_use_data_local_tmp_content">Use /data/local/tmp</string>
-    <string name="detail_phone_network_type">Network Type</string>
+    <string name="register_processing">Registering……</string>
+    <string name="settings_use_data_local_tmp">Save configuration files to /data/local/tmp</string>
+    <string name="settings_use_data_local_tmp_title">Tip</string>
+    <string name="settings_use_data_local_tmp_content">There's a benefit of saving configuration files to /data/local/tmp, compatible with all versions of system and all software. However, there is another flaw in this option, which requires Root access to run commands in normal. If you have Root access of your operating system, you can fully switch this on.</string>
+    <string name="detail_phone_network_type">Cellular Network Type</string>
 </resources>
